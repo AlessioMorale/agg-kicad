@@ -1,0 +1,16 @@
+datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/mic5060.pdf
+description: Ultra Small High-Side MOSFET Driver
+footprint: agg:DFN-8-EP-MICROCHIP
+name: MIC5060
+ordercodes:
+- [Digikey, '576-3669-1-ND']
+pins:
+- - - [V+, 1, pwrin]
+  - - [Input, 2, in]
+  - - [GND, 4, pwrin]
+- - - [NC, 6, passive]
+    - [NC, 7, passive]
+    - [NC, 8, passive]
+  - - [Gate, 5, in]
+  - - [Source, 3, passive]
+
