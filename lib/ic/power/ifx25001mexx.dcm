@@ -1,0 +1,4 @@
+EESchema-DOCLIB  Version 2.0
+$CMP IFX25001MExx
+D 400 mA 45V Low Dropout Voltage Regulator
+$ENDCMP

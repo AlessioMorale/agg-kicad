@@ -1,0 +1,15 @@
+datasheet: https://www.infineon.com/dgdl/Infineon-BTS4175SGA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b05f003606
+description: Smart highside power switch
+footprint: Housings_SOIC:SO-8_5.3x6.2mm_Pitch1.27mm
+name: BTS4175SGA
+ordercodes:
+  - [Digikey, 'BTS4175SGAXUMA1CT-ND']
+pins:
+- - - [VS, 5, pwrin]
+    - [VS, 6, pwrin]
+    - [VS, 7, pwrin]
+    - [VS, 8, pwrin]
+- - - [OUT, 3, pwrout]
+  - - [IN, 2, in]
+    - [ST, 4, od]
+    - [GND, 1, pwrout]

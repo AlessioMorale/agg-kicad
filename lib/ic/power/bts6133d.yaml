@@ -1,0 +1,12 @@
+datasheet: https://www.infineon.com/dgdl/Infineon-BTS6133D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3e3286f102a
+description: Smart highside power switch
+footprint: TO_SOT_Packages_SMD:TO-252-4
+name: BTS6133D
+ordercodes:
+  - [Digikey, 'BTS6133DCT-ND']
+pins:
+- - - [VBB, 3, pwrin]
+  - - [IN, 2, in]
+    - [IS, 4, out]
+- - - [OUT, 1, pwrout]
+    - [OUT, 5, pwrout]

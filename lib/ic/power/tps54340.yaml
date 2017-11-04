@@ -1,0 +1,16 @@
+datasheet: http://www.ti.com/lit/ds/symlink/tps54340.pdf
+description: TPS54340 42 V Input, 3.5 A, Step Down DC-DC Converter with Eco-mode
+footprint: Housings_SOIC:HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm
+name: TPS54340DDA
+ordercodes:
+- [Digikey, '296-35072-1-ND']
+pins:
+- - - [VIN, 2, pwrin]
+  - - [EN, 3, in]
+  - - [RT/CLK, 4, passive]
+    - [COMP, 6, passive]
+- - - [BOOT, 1, passive]
+    - [SW, 8, passive]
+  - - [FB, 5, in]
+  - - [GND, 7, pwrin]
+    - [GND, 9, pwrin]

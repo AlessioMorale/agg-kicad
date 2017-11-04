@@ -1,0 +1,10 @@
+datasheet: https://www.infineon.com/dgdl/Infineon-IFX25001-DS-v01_02-en.pdf?folderId=db3a30431ff988150120802bce1d257a&fileId=db3a304320d39d590120f620f1e269da&ack=t
+description:  400 mA 45V Low Dropout Voltage Regulator
+footprint: TO_SOT_Packages_SMD:SOT-223-3_TabPin2
+name: IFX25001MExx
+ordercodes:
+  - [Digikey, 'IFX25001MEV33HTSA1CT-ND']
+pins:
+- - - [I, 1, pwrin]
+  - - [GND, 2, pwrin]
+- - - [Q, 3, pwrout]
