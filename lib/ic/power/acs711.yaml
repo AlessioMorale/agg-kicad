@@ -1,0 +1,19 @@
+datasheet: http://www.allegromicro.com/~/media/Files/Datasheets/ACS711-Datasheet.ashx
+description: Hall-Effect Linear Current Sensor with Overcurrent Fault Output for <100 V Isolation Applications
+footprint: agg:QFN-12_acs711
+name: ACS711KEXLT
+ordercodes:
+  - [Digikey, '620-1482-1-ND']
+pins:
+- - - [IP+, 1, pwrin]
+  - - [GND, 5, pwrin]
+    - [/FAULT, 6, out]
+- - - [IP-, 3, pwrout]
+  - - [VIOUT, 11, od]
+  - - [VCC, 12, pwrin]
+  - - [NC, 7, nc]
+    - [NC, 8, nc]
+    - [NC, 9, nc]
+    - [NC, 10, nc]
+    - [NC, 2, nc]
+    - [NC, 4, nc]
