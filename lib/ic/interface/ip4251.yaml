@@ -1,0 +1,16 @@
+datasheet: https://assets.nexperia.com/documents/data-sheet/IP4251_52_53_54-TTL.pdf
+description: Integrated 4-channel passive filter network with ESD protection
+footprint: agg:HUSON8
+name: IP4251
+ordercodes:
+  - [Digikey, '1727-5678-1-ND']
+pins:
+- - - [I1, 1, passive]
+    - [I2, 2, passive]
+    - [I3, 3, passive]
+    - [I4, 4, passive]
+  - - [GND, 9, pwrin]
+- - - [O1, 5, passive]
+    - [O2, 6, passive]
+    - [O3, 7, passive]
+    - [O4, 8, passive]
