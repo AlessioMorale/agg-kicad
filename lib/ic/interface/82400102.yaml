@@ -1,0 +1,13 @@
+datasheet: http://katalog.we-online.com/pbs/datasheet/82400102.pdf
+description: TVS Diode Array WE-TVS
+footprint: TO_SOT_Packages_SMD:SOT-23-6
+name: '82400102'
+ordercodes:
+  - [Digikey, '732-4473-1-ND']
+pins:
+- - - [IO1, 1, passive]
+    - [IO2, 3, passive]
+  - - [VDD, 5, pwrin]
+- - - [IO1, 6, passive]
+    - [IO2, 4, passive]
+  - - [GND, 2, pwrin]
