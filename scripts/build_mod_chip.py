@@ -181,6 +181,14 @@ config = {
                   "rotate": (0, 0, 0)},
     },
 
+    # 2512 from IPC-7351A: RESC4532X110N
+    "1812": {
+        "pad_shape": (1.40, 3.4),
+        "pitch": 4.1,
+        "chip_shape": (4.8, 3.4),
+        "pin_shape": (-.9, 3.4),
+    },
+
     # 2512 from IPC-7351A: RESC6432X70N
     "2512": {
         "pad_shape": (1.25, 3.4),
@@ -192,6 +200,14 @@ config = {
                   "scale": (1, 1, 1),
                   "rotate": (0, 0, 0)},
     },
+    
+    # WE 7443330220 Inductor
+    "WE-HCC-1090": {
+        "pad_shape": (2.3, 3.6),
+        "pitch": 9.2,
+        "chip_shape": (10.9, 10),
+        "pin_shape": (-1.6, 3),
+    },    
 
     # SOD-323 from IPC-7351B: SOD2513X100L
     "SOD-323": {
@@ -257,6 +273,14 @@ config = {
         "pitch": 2.37,
         "chip_shape": (4, 4),
         "pin_shape": (-1.5, 4),
+    },
+
+    # Coilcraft MSS1210 series inductors
+    "MSS1210": {
+        "pad_shape": (3.0, 5.5),
+        "pitch": 9.5,
+        "chip_shape": (12.3, 12.3),
+        "pin_shape": (-2.5, 5.0),
     },
 
     # DO-214AC (SMA) from Diodes Inc.
