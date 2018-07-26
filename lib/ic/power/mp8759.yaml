@@ -1,0 +1,21 @@
+name: MP8759
+datasheet: https://media.monolithicpower.com/document/MP8759_r1.1.pdf
+footprint: agg:QFN-12_MPS_NB679
+description: Fixed/Adjustable Current-Limiting Power-Distribution Switch
+ordercodes:
+  - [Farnell, '']
+  - [Digikey, '1589-1736-1-ND']
+pins:
+- - - [VIN, 1, pwrin]
+  - - [MODE, 6, in]
+  - - [EN, 12, in]
+    - [VCC, 9, pwrout]
+  - - [PG, 3, out]
+  - - [PGND, 2, pwrin]
+- - - [BST, 8, pwrin]
+    - [SW, 7, pwrout]
+  - - [FB, 11, in]
+  - - [VOUT, 5, passive]
+    - [AGND, 10, pwrin]
+  - - [NC, 4, nc]
+  

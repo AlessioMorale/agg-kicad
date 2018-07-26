@@ -1,0 +1,21 @@
+name: NB679
+datasheet: https://www.monolithicpower.com/pub/media/document/NB679_r1.03.pdf
+footprint: agg:QFN-12_MPS_NB679
+description: Fixed/Adjustable Current-Limiting Power-Distribution Switch
+ordercodes:
+  - [Farnell, '']
+  - [Digikey, '1589-1824-1-ND']
+pins:
+- - - [VIN, 1, pwrin]
+  - - [ENLDO, 12, in]
+    - [EN, 11, in]
+  - - [LDO, 6, pwrout]
+  - - [PG, 3, out]
+    - [VCC, 9, pwrout]
+- - - [BST, 8, pwrin]
+    - [SW, 7, pwrout]
+    - [VOUT, 5, passive]
+  - - [PGND, 2, pwrin]
+    - [AGND, 10, pwrin]
+  - - [NC, 4, nc]
+  
