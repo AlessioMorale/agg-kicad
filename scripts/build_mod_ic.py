@@ -424,6 +424,25 @@ config = {
         },
     },
 
+    # UFDFN-8 / USON-8 from JEDEC MO-220
+    # AKA Winbond UX
+    "UFDFN-8": {
+        "rows": 2,
+        "pins": 8,
+        "pin_pitch": 0.5,
+        "row_pitch": 2.45,
+        "pad_shape": (.30, .25),
+        "chip_shape": (3.0, 2.0),
+        "pin_shape": (-0.45, 0.25),
+        "model": {
+            "path":
+            "${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm.step",
+            "offset": (0, 0, 0),
+            "scale": (1, 1, 1),
+            "rotate": (0, 0, 0),
+        },
+    },
+
     # UFQFPN-48 from JEDEC MO-220
     # Modified to meet the ST ECOPACK package of the same name:
     #   * Row pitch is 6.75mm instead of 7.0mm
@@ -501,6 +520,45 @@ config = {
             "scale": (1, 1, 1),
             "rotate": (0, 0, 0),
         },
+    },
+
+    # QFN-8 from DL1636
+    # For PHA-202+
+    "DL1636": {
+        "rows": 2,
+        "pins": 8,
+        "pin_pitch": 1.27,
+        "row_pitch": 5.51,
+        "pad_shape": (1.02, 0.51),
+        "ep_shape": (3.94, 4.11),
+        "chip_shape": (6, 4.90),
+        "pin_shape": (-0.6, 0.42),
+        "ep_vias": (0.4, 0.8, 0.8),
+    },
+
+    # uQFN-10L
+    "uQFN-10L": {
+        "rows": 2,
+        "pins": 10,
+        "pin_pitch": 0.5,
+        "row_pitch": 1.05,
+        "pad_shape": (0.7, 0.2),
+        "chip_shape": (1.35, 2.60),
+        "pin_shape": (-0.5, 0.20),
+        "silk": "external",
+    },
+
+    # QFN-12 from DQ1225
+    # For PMA3-83LN+
+    "DQ1225": {
+        "rows": 4,
+        "pins": 12,
+        "pin_pitch": 0.51,
+        "row_pitch": 2.71,
+        "pad_shape": (0.51, 0.25),
+        "ep_shape": (1.25, 1.25),
+        "chip_shape": (3, 3),
+        "pin_shape": (-0.41, 0.23),
     },
 
     # QFN-20 from JEDEC MO-220VGGD-8
@@ -1067,6 +1125,23 @@ config = {
         },
     },
 
+    # TDFN-8 (MAXIM T822CN+1, 21-0487, 90-0349)
+    "TDFN-8": {
+        "rows": 2,
+        "pins": 8,
+        "pin_pitch": 0.5,
+        "row_pitch": 1.9,
+        "pad_shape": (0.85, 0.30),
+        "chip_shape": (2.0, 2.0),
+        "pin_shape": (-0.4, 0.25),
+        "model": {
+            "path": "${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-8_2x2mm_P0.5mm.step",
+            "offset": (0, 0, 0),
+            "scale": (1, 1, 1),
+            "rotate": (0, 0, 0),
+        },
+    },
+
     # DFN-16 from LTC4353
     # IPC-7351B: DFN45P300X400X75-17N
     "DFN-16-EP-LTC-DE": {
@@ -1198,12 +1273,29 @@ config = {
     "XTAL-25x20": {
         "rows": 2,
         "pins": 4,
-        "pin_pitch": 2.1,
-        "row_pitch": 1.4,
+        "pin_pitch": 1.7,
+        "row_pitch": 1.6,
         "pad_shape": (1.0, 0.8),
         "chip_shape": (2.0, 2.5),
-        "pin_shape": (-0.7, 0.4),
+        "pin_shape": (-0.7, 0.7),
         "silk": "external",
+        "model": {
+            "path": "${KISYS3DMOD}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step",
+            "offset": (0, 0, 0),
+            "scale": (0.8, 0.8, 1.0),
+            "rotate": (0, 0, 90),
+        },
+    },
+
+    # MB2S diode bridge rectifier in TO-269AA
+    "TO-269AA": {
+        "rows": 2,
+        "pins": 4,
+        "pin_pitch": 2.54,
+        "row_pitch": 5.7,
+        "pad_shape": (1.4, 0.8),
+        "chip_shape": (3.9, 4.75),
+        "pin_shape": (1.4, 0.74),
     },
 
     # RFM69 and friends
