@@ -1,0 +1,27 @@
+name: MPM36xx
+datasheet: https://www.monolithicpower.com/pub/media/document/MPM3606A_r1.0.pdf
+footprint: agg:QFN-20-MPS-3x5x1.6mm
+description: 21V/0.6A DC/DC Module Synchronous Step-Down Converter with Integrated Inductor
+ordercodes:
+  - [Farnell, '']
+  - [Digikey, '1589-1247-1-ND']
+pins:
+- - - [IN, 16, pwrin]
+  - - [EN, 17, in]
+    - [VCC, 2, pwrout]
+  - - [PG/AAM, 18, out]
+    - [PGND, 14, pwrin]
+    - [PGND, 13, pwrin]
+    - [PGND, 12, pwrin]
+- - - [BST, 11, pwrin]
+    - [SW, 4, pwrout]
+    - [SW, 5, pwrout]
+    - [SW, 6, pwrout]
+  - - [FB, 1, in]
+    - [VOUT, 7, passive]
+    - [VOUT, 8, passive]
+    - [VOUT, 9, passive]
+  - - [AGND, 3, pwrin]
+  - - [NC, 10, nc]
+    - [NC, 15, nc]
+
