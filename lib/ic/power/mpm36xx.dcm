@@ -1,4 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 $CMP MPM36xx
 D 21V/0.6A DC/DC Module Synchronous Step-Down Converter with Integrated Inductor
+F https://www.monolithicpower.com/pub/media/document/MPM3606A_r1.0.pdf
 $ENDCMP

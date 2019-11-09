@@ -1,4 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 $CMP IP4251
 D Integrated 4-channel passive filter network with ESD protection
+F https://assets.nexperia.com/documents/data-sheet/IP4251_52_53_54-TTL.pdf
 $ENDCMP

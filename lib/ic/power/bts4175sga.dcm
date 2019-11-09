@@ -1,4 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 $CMP BTS4175SGA
 D Smart highside power switch
+F https://www.infineon.com/dgdl/Infineon-BTS4175SGA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b05f003606
 $ENDCMP

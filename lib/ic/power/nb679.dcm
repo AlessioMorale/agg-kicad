@@ -1,4 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 $CMP NB679
 D Fixed/Adjustable Current-Limiting Power-Distribution Switch
+F https://www.monolithicpower.com/pub/media/document/NB679_r1.03.pdf
 $ENDCMP

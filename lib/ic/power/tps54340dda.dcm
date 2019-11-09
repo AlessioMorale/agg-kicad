@@ -1,4 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 $CMP TPS54340DDA
 D TPS54340 42 V Input, 3.5 A, Step Down DC-DC Converter with Eco-mode
+F http://www.ti.com/lit/ds/symlink/tps54340.pdf
 $ENDCMP

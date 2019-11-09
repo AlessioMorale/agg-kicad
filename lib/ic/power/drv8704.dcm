@@ -1,4 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 $CMP DRV8704
 D 52-V Dual H-Bridge PWM Gate Driver
+F http://www.ti.com/lit/ds/symlink/drv8704.pdf
 $ENDCMP

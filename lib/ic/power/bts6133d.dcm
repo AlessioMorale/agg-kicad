@@ -1,4 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 $CMP BTS6133D
 D Smart highside power switch
+F https://www.infineon.com/dgdl/Infineon-BTS6133D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3e3286f102a
 $ENDCMP

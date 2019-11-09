@@ -1,4 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 $CMP MIC5060
 D Ultra Small High-Side MOSFET Driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5060.pdf
 $ENDCMP

@@ -1,4 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 $CMP MP8759
 D Fixed/Adjustable Current-Limiting Power-Distribution Switch
+F https://media.monolithicpower.com/document/MP8759_r1.1.pdf
 $ENDCMP
